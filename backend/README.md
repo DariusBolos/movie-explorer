@@ -1,0 +1,3 @@
+- As of today the backend of the application only runs with a local postgresql database
+- Username: postgres, Password: (the password chosen when running the postgres installer)
+- Further updates and database inclusion in the project are on the way
