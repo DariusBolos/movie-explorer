@@ -1,0 +1,6 @@
+.banner-container {
+    background-image: url("../../../../../public/images/wallpapersden.com_the-creator-movie-poster_3840x2160.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55rem;
+}

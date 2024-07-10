@@ -1,0 +1,23 @@
+<div class="card">
+    <p-galleria 
+        [value]="images" 
+        [showItemNavigators]="true" 
+        [showThumbnails]="false" 
+        [showIndicators]="true" 
+        [showIndicatorsOnItem]="true" 
+        [responsiveOptions]="responsiveOptions" 
+        [containerStyle]="{ 'max-width': '640px', 'margin-top':'2em' }"> 
+            <ng-template pTemplate="item" let-item>
+                <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
+            </ng-template>
+            <ng-template pTemplate="thumbnail" let-item>
+                <div class="grid grid-nogutter justify-content-center">
+                    <img [src]="item.thumbnailImageSrc" style="display: block;" />
+                </div>
+            </ng-template>
+    </p-galleria>
+    <div class="movie-info-container">
+        <h1>Title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ab dolore repudiandae nulla! Dolorum est perferendis error sunt vitae earum, rerum, ipsa qui dicta, voluptate eius modi fuga ea! Aliquam.</p>
+    </div>
+</div>

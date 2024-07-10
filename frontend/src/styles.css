@@ -1,6 +1,7 @@
 @layer tailwind-base, primeng, tailwind-utilities;
  
-@import "primeng/resources/themes/md-dark-indigo/theme.css";
+/* @import "primeng/resources/themes/vela-green/theme.css"; */
+@import "primeng/resources/themes/lara-dark-blue/theme.css";
 @import "primeng/resources/primeng.min.css";
 @import "primeicons/primeicons.css";
 
@@ -11,4 +12,8 @@
 @layer tailwind-utilities {
     @tailwind components;
     @tailwind utilities;
+}
+
+:root {
+    background-color: #07161d;
 }
